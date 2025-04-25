@@ -54,14 +54,21 @@ Use the `prepare_dataset.py` script to download and preprocess datasets:
 python scripts/prepare_dataset.py --dataset all_the_news
 python scripts/prepare_dataset.py --dataset newscatcher
 
-📈 Evaluation Metrics
-Query throughput (QPS)
+## 📈 Evaluation Metrics
 
-Memory usage
+- **Query Throughput (QPS)**  
+- **Memory Usage**  
+- **Recall@10**  
+- **Mean Precision**  
+- **Query Time**
 
-Recall@10
+---
 
-Mean Precision
+## 🛠️ Key Features
 
-Query time
+- **Multi-vector document embedding** using transformer-based models (e.g., MiniLM, BERT, RoBERTa)
+- **Hybrid indexing** with FAISS (coarse retrieval) and HNSWlib (fine reranking)
+- **Dynamic hyperparameter tuning** using grid search
+- **Scalable evaluation** on benchmark datasets: News, Glove1.2M, Deep1M, and SIFT10M
+- **Caching support** for efficient inference and reduced computation
 

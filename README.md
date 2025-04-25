@@ -17,7 +17,7 @@ The VectorSearch dataset is a collection of news articles and image feature vect
 |:--------|:------------|:-----|
 | **All the News** | 2,688,878 articles from 27 U.S. publications (2016–2020); expanded from original 2017 dataset (~100k articles) | [**All the News**](https://components.one/datasets/all-the-news-2-news-articles-dataset) |
 | **NewsCatcher** | 108k+ articles spanning eight topics: business, entertainment, health, nation, science, sports, technology, world | [**NewsCatcher**](https://www.newscatcherapi.com/) |
-| **News Dataset (Newscatcher API)** | Subset collected from NewsCatcher, focused on topic-wise categorization | — |
+| **News Dataset (Newscatcher API)** | Subset collected from NewsCatcher, focused on topic-wise categorization | [**NewsCatcher**](https://www.newscatcherapi.com/) |
 | **Glove1.2M** | Pretrained word embeddings (1.2 million vectors) for large-scale search tasks | — |
 | **Deep1M** | 1 million dense vectors for benchmarking similarity search | — |
 | **SIFT10M / SIFT1M** | Visual feature vectors from image datasets (benchmarking) | — |

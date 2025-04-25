@@ -54,5 +54,14 @@ Use the `prepare_dataset.py` script to download and preprocess datasets:
 python scripts/prepare_dataset.py --dataset all_the_news
 python scripts/prepare_dataset.py --dataset newscatcher
 
+📈 Evaluation Metrics
+Query throughput (QPS)
 
+Memory usage
+
+Recall@10
+
+Mean Precision
+
+Query time
 

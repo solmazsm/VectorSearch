@@ -19,6 +19,8 @@ The VectorSearch dataset is a collection of news articles and image feature vect
 | **Deep1M** | 1 million dense vectors for benchmarking similarity search | — |
 | **SIFT10M / SIFT1M** | Visual feature vectors from image datasets (benchmarking) | [SIFT10M / SIFT1M](http://corpus-texmex.irisa.fr/) |
 
+In our system, the input file (e.g., audio.data) is a binary file containing vectors in 32-bit floating-point (float32) format. Compared to text-based formats, binary files enable significantly faster read times and lower storage overhead, making them well-suited for large-scale, high-dimensional vector retrieval tasks. We extended this support to handle multi-vector inputs per document, enabling retrieval over sets of semantic embeddings instead of single vectors.([**audio.data**]([https://www.newscatcherapi.com/](https://github.com/RSIA-LIESMARS-WHU/LSHBOX-sample-data)), which is in [**float data type**]([https://www.newscatcherapi.com/](https://github.com/RSIA-LIESMARS-WHU/LSHBOX?tab=readme-ov-file)] ) 
+
 ---
 
 ### 📥 Download Instructions

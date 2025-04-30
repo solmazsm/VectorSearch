@@ -1,10 +1,7 @@
 #### This folder contains all the necessary implementations required to replicate the studies submitted to VLDB 2026.
 #### VectorSearch: A Self-Optimizing Multi-Vector Indexing System for Scalable and Memory-Efficient Vector Retrieval
 
-The experiments used a labeled dataset of 1000 news articles. We implemented the algorithm in Python, using libraries for data manipulation, computations, and NLP. SentenceTransformer encoded document titles into embeddings. Indexes facilitated retrieval. Hyperparameter optimization evaluated combinations of dimensions, thresholds, and models using grid search. All our experiments were performed using the same hardware consisting of RTX NVIDIA 3050 GPUs and i5-11400H @ 2.70GHz with 16GB of memory. The details of each experiment are the following.
-We implemented a caching mechanism to store and reuse precomputed embeddings from the Chroma model, enhancing efficiency by eliminating redundant computations. This mechanism efficiently saved embeddings to disk, minimizing the need for recomputation and optimizing resource management. Additionally, the implementation included visualization of the similarity network of news articles, achieved by vectorizing content, calculating pairwise cosine similarity, and constructing a graph representation using NetworkX, visualized with Matplotlib. Further functionality analyzed query time distribution through empirical cumulative distribution function computation and visualization using NumPy and Matplotlib.
- We conducted experiments using three models: all-MiniLM-L6-, 
- roberta-base and bert-base-uncased. The hyperparameters varied included the index dimension $(256, 512, 1024)$ and the similarity threshold $(0.7, 0.8, 0.9)$. 
+
 
 ## 📚 Dataset
 
@@ -49,4 +46,23 @@ python scripts/prepare_dataset.py --dataset newscatcher
 - **Dynamic hyperparameter tuning** using grid search
 - **Scalable evaluation** on benchmark datasets: News, Glove1.2M, Deep1M, and SIFT10M
 - **Caching support** for efficient inference and reduced computation
+## Experimental Setup
+
+VectorSearch was tested in both local and cloud environments to validate scalability and performance.
+
+- **Local Environment:**  
+  Intel Core i5-11400H CPU @ 2.70GHz  
+  16 GB DDR4 RAM  
+  NVIDIA RTX 3050 GPU (4 GB VRAM)  
+  Ubuntu 22.04.3, Python 3.10
+
+- **Cloud Environment (Azure):**  
+  Standard_E64ds_v4 Virtual Machine  
+  64 vCPUs, 504 GiB RAM  
+  Intel Xeon Platinum 8272CL  
+  Ubuntu 22.04, Python 3.10
+
+All embeddings were computed using [SentenceTransformer](https://www.sbert.net/) (v2.2.2) and indexed using FAISS with support for flat, quantized, and graph-based refinement. A disk-based caching mechanism using ChromaDB was used to avoid redundant computation. Retrieval experiments were performed using 10,000 queries, and all reported metrics represent the average of five independent runs.
+
+Scripts for local and cloud deployment are included for reproducibility.
 

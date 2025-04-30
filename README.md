@@ -17,7 +17,7 @@ The VectorSearch dataset is a collection of news articles and image feature vect
 | **News Dataset (Newscatcher API)** | Subset collected from NewsCatcher, focused on topic-wise categorization | [**NewsCatcher**](https://www.newscatcherapi.com/) |
 | **Glove1.2M** | Pretrained word embeddings (1.2 million vectors) for large-scale search tasks | — |
 | **Deep1M** | 1 million dense vectors for benchmarking similarity search | — |
-| **SIFT10M / SIFT1M** | Visual feature vectors from image datasets (benchmarking) | — |
+| **SIFT10M / SIFT1M** | Visual feature vectors from image datasets (benchmarking) | [SIFT10M / SIFT1M](http://corpus-texmex.irisa.fr/) |
 
 ---
 

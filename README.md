@@ -1,8 +1,24 @@
+# VectorSearch: A Self-Optimizing Multi-Vector Indexing System for Scalable and Memory-Efficient Vector Retrieval
+
+[![Documentation](https://img.shields.io/badge/docs-available-brightgreen.svg)](https://solmazsm.github.io/VectorSearch/)
+[![License](https://img.shields.io/github/license/solmazsm/VectorSearch)](LICENSE)
+[![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
+
+---
+
 #### This folder contains all the necessary implementations required to replicate the studies submitted to VLDB 2026.
-#### VectorSearch: A Self-Optimizing Multi-Vector Indexing System for Scalable and Memory-Efficient Vector Retrieval
 
+### 📖 Documentation
 
+The VectorSearch (VS) system includes comprehensive documentation for setup, usage, and evaluation. It provides:
 
+- **Getting Started tutorials** for both Python and C++ implementations  
+- **Installation instructions** and environment setup guides  
+- **Step-by-step search examples** using multi-vector queries  
+- **API reference** for system modules and dataset loaders  
+- **Performance benchmarks** and comparison studies on real and synthetic datasets
+
+Visit the full documentation at: [https://solmazsm.github.io/VectorSearch/](https://solmazsm.github.io/VectorSearch/)
 ## 📚 Dataset
 
 The VectorSearch dataset is a collection of news articles and image feature vectors indexed using semantic vector embeddings for efficient search and retrieval. It includes articles from diverse news sources and visual feature datasets, supporting large-scale text and image retrieval experiments.

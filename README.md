@@ -23,7 +23,6 @@ Visit the full documentation at: [https://solmazsm.github.io/VectorSearch/](http
 
 The VectorSearch dataset is a collection of news articles and image feature vectors indexed using semantic vector embeddings for efficient search and retrieval. It includes articles from diverse news sources and visual feature datasets, supporting large-scale text and image retrieval experiments.
 
-
 ---
 
 | Dataset | Description | Link |
@@ -53,7 +52,7 @@ python scripts/prepare_dataset.py --dataset newscatcher
 - **Recall@10**  
 - **Mean Precision**  
 - **Query Time**
-
+```
 ---
 
 ## 🛠️ Key Features

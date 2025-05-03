@@ -3,6 +3,7 @@
 [![Documentation](https://img.shields.io/badge/docs-available-brightgreen.svg)](https://solmazsm.github.io/VectorSearch/)
 [![License](https://img.shields.io/github/license/solmazsm/VectorSearch)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
+[![C++](https://img.shields.io/badge/C++-supported-blue.svg)](https://en.cppreference.com/)
 
 ---
 

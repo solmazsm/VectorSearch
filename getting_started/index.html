@@ -62,7 +62,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#setup" class="md-skip">
+        <a href="#getting-started-with-vectorsearch-vs" class="md-skip">
           Skip to content
         </a>
       
@@ -222,6 +222,8 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
           
@@ -254,6 +256,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -262,11 +266,35 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#setup" class="md-nav__link">
+  <a href="#prerequisites" class="md-nav__link">
     <span class="md-ellipsis">
-      Setup
+      🔧 Prerequisites
     </span>
   </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installation" class="md-nav__link">
+    <span class="md-ellipsis">
+      📦 Installation
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📦 Installation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-install-system-dependencies" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Install System Dependencies
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -361,6 +389,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -369,11 +399,35 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#setup" class="md-nav__link">
+  <a href="#prerequisites" class="md-nav__link">
     <span class="md-ellipsis">
-      Setup
+      🔧 Prerequisites
     </span>
   </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installation" class="md-nav__link">
+    <span class="md-ellipsis">
+      📦 Installation
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📦 Installation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-install-system-dependencies" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Install System Dependencies
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -393,13 +447,18 @@
 
 
 
-  <h1>Getting Started</h1>
-
-<h2 id="setup">Setup</h2>
-<p>To install all required dependencies and run the system, download and execute the following script:</p>
+<h1 id="getting-started-with-vectorsearch-vs">Getting Started with VectorSearch (VS)</h1>
+<p>VectorSearch (VS) is a self-optimizing hybrid indexing system designed for scalable and memory-efficient vector retrieval. This guide walks you through setting up the system and running a sample search on a small dataset.</p>
+<hr />
+<h2 id="prerequisites">🔧 Prerequisites</h2>
+<p>Ensure your environment is running <strong>Ubuntu (20.04 or later)</strong>. The instructions below are tested on an Azure VM (Standard_E64ds_v4), but they work in any compatible Linux setup.</p>
+<hr />
+<h2 id="installation">📦 Installation</h2>
+<h3 id="1-install-system-dependencies">1. Install System Dependencies</h3>
 <p>```bash
-wget https://raw.githubusercontent.com/solmazsm/VectorSearch/master/vectorsearch_system_setup/install_dependencies.sh
-bash install_dependencies.sh</p>
+sudo apt-get update &amp;&amp; sudo apt-get install -y \
+  build-essential cmake g++ make libomp-dev \
+  python3 python3-pip python3-venv python3-dev</p>
 
 
 

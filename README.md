@@ -1,7 +1,7 @@
 # VectorSearch: A Self-Optimizing Multi-Vector Indexing System for Scalable and Memory-Efficient Vector Retrieval
 
 [![Documentation](https://img.shields.io/badge/docs-available-brightgreen.svg)](https://solmazsm.github.io/VectorSearch/)
-[![License](https://img.shields.io/github/license/solmazsm/VectorSearch)](LICENSE)
+[![System Setup](https://img.shields.io/badge/System%20Setup-Ubuntu%20%7C%20C%2B%2B%20%2B%20Python-blue)](https://github.com/solmazsm/VectorSearch/blob/master/vectorsearch_system_setup/azure_setup.sh)
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
 [![C++](https://img.shields.io/badge/C++-supported-blue.svg)](https://en.cppreference.com/)
 

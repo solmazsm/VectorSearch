@@ -86,7 +86,7 @@ VectorSearch was tested in both local and cloud environments to validate scalabi
   Ubuntu 22.04, Python 3.10
 
 All embeddings were computed using [SentenceTransformer](https://www.sbert.net/) (v2.2.2).
-VectorSearch introduces a novel hybrid indexing system that combines quantization-based candidate filtering with lightweight graph refinement, enabling scalable, memory-efficient, and dynamic multi-vector retrieval across large embedding spaces.
+VectorSearch introduces a novel hybrid indexing system that coarse retrieval via quantization-based filtering with lightweight graph refinement, enabling scalable, memory-efficient, and dynamic multi-vector retrieval across large embedding spaces.
 
 Retrieval experiments were performed using 10,000 queries, and all reported metrics represent the average of five independent runs.
 

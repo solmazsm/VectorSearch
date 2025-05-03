@@ -85,7 +85,10 @@ VectorSearch was tested in both local and cloud environments to validate scalabi
   Intel Xeon Platinum 8272CL  
   Ubuntu 22.04, Python 3.10
 
-All embeddings were computed using [SentenceTransformer](https://www.sbert.net/) (v2.2.2) and indexed using FAISS with support for flat, quantized, and graph-based refinement. A disk-based caching mechanism using ChromaDB was used to avoid redundant computation. Retrieval experiments were performed using 10,000 queries, and all reported metrics represent the average of five independent runs.
+All embeddings were computed using [SentenceTransformer](https://www.sbert.net/) (v2.2.2).
+VectorSearch introduces a novel hybrid indexing system that combines quantization-based candidate filtering with lightweight graph refinement, enabling scalable, memory-efficient, and dynamic multi-vector retrieval across large embedding spaces.
+
+Retrieval experiments were performed using 10,000 queries, and all reported metrics represent the average of five independent runs.
 
 Scripts for local and cloud deployment are included for reproducibility.
 

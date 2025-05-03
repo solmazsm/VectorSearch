@@ -62,7 +62,7 @@ python scripts/prepare_dataset.py --dataset newscatcher
 
 ---
 
-## 🛠️ Key Features
+##  Key Features
 
 - **Multi-vector document embedding** using transformer-based models (e.g., MiniLM, BERT, RoBERTa)
 - **Hybrid indexing** with (coarse retrieval) and (fine reranking)

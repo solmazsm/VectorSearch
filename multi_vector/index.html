@@ -444,11 +444,11 @@
         <li class="md-nav__item">
   <a href="#how-it-works" class="md-nav__link">
     <span class="md-ellipsis">
-      ⚙️ How It Works
+      How It Works
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="⚙️ How It Works">
+    <nav class="md-nav" aria-label="How It Works">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -555,11 +555,11 @@
         <li class="md-nav__item">
   <a href="#how-it-works" class="md-nav__link">
     <span class="md-ellipsis">
-      ⚙️ How It Works
+      How It Works
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="⚙️ How It Works">
+    <nav class="md-nav" aria-label="How It Works">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -592,21 +592,21 @@
 
 
 
-<h1 id="multi-vector-retrieval-c-implementation">🔍 Multi-Vector Retrieval (C++ Implementation)</h1>
+<h1 id="multi-vector-retrieval-c-implementation">Multi-Vector Retrieval (C++ Implementation)</h1>
 <p>This page documents the C++ implementation of multi-vector retrieval and evaluation in the VectorSearch system.</p>
 <h2 id="overview">Overview</h2>
 <p>We implemented multi-vector aggregation in C++ to improve retrieval robustness when a query is represented by multiple semantically similar vectors...</p>
-<h2 id="how-it-works">⚙️ How It Works</h2>
+<h2 id="how-it-works">How It Works</h2>
 <h3 id="query-aggregation">🔹 Query Aggregation</h3>
 <p>A set of query vectors (e.g., ID 0–4) is treated as one logical query. Each base vector is scored based on the <strong>average L2 distance</strong> to these multiple queries.</p>
-<p>```cpp
-for (int i = 0; i &lt; prep.data.N; ++i) {
+<pre><code class="language-cpp">for (int i = 0; i &lt; prep.data.N; ++i) {
     float total_dist = 0.0f;
     for (const auto&amp; qvec : multi_query) {
         total_dist += cal_distSqrt(qvec.data(), prep.data.val[i], prep.data.dim);
     }
     score_all[i] = { total_dist / multi_query.size(), i };
-}</p>
+}
+</code></pre>
 
 
 

@@ -258,6 +258,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#system-design-overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      System Design Overview
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -432,6 +441,28 @@
   
   
     <li class="md-nav__item">
+      <a href="multi_vector/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Multi-Vector Retrieval
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="visualizations/" class="md-nav__link">
         
   
@@ -504,6 +535,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#system-design-overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      System Design Overview
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -525,12 +565,24 @@
 <h2 id="features">Features</h2>
 <ul>
 <li>Quantization-based candidate filtering  </li>
-<li>Lightweight graph refinement  </li>
-<li>Multi-vector support  </li>
-<li>Caching and memory mapping</li>
+<li>Lightweight graph refinement</li>
+<li>Semantic embedding alignment </li>
+<li>Semantic embedding alignment  </li>
+<li>Multi-vector query support  </li>
+<li>Dynamic hyperparameter tuning  </li>
+<li>Caching and memory-mapped storage   </li>
 </ul>
 <p>Start with <a href="getting_started/">Getting Started</a></p>
 <hr />
+<h2 id="system-design-overview">System Design Overview</h2>
+<p>ectorSearch introduces a modular architecture that integrates:</p>
+<ul>
+<li><strong>Semantic embedding alignment</strong></li>
+<li><strong>Multi-vector query support</strong></li>
+<li><strong>Caching and memory mapping</strong></li>
+<li><strong>Dynamic hyperparameter tuning</strong></li>
+</ul>
+<p>The system executes a <strong>coarse-to-fine retrieval pipeline</strong>, leveraging quantized vector search for rapid candidate selection, followed by graph-based reranking for refined accuracy. This design enables <strong>high recall with minimal latency</strong> and adapts to diverse workloads without index reconstruction.</p>
 
 
 

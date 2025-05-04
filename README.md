@@ -19,7 +19,7 @@ The VectorSearch (VS) system includes comprehensive documentation for setup, usa
 - **Installation instructions** and environment setup guides  
 - **Step-by-step search examples** using multi-vector queries  
 - **API reference** for system modules and dataset loaders  
-- **Performance benchmarks** and comparison studies on real and synthetic datasets
+- **Performance benchmarks** and comparison studies on real datasets
 
 Visit the full documentation at: [https://solmazsm.github.io/VectorSearch/](https://solmazsm.github.io/VectorSearch/)
 ## 📚 Dataset

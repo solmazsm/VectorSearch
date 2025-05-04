@@ -57,6 +57,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#benchmarks" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -420,6 +425,34 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#sections" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sections
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#benchmark-summary-across-all-tasks" class="md-nav__link">
+    <span class="md-ellipsis">
+      📊 Benchmark Summary (Across All Tasks)
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -435,9 +468,76 @@
 
 
 
-  <h1>Benchmarks</h1>
-
-
+<h1 id="benchmarks">Benchmarks</h1>
+<p>This section presents detailed evaluations of VectorSearch across multiple benchmark scenarios, highlighting performance within static and dynamic indexing setups, as well as ablation studies on system design components.</p>
+<p>We evaluate the system using standard datasets such as <strong>Glove1.2M</strong>, <strong>SIFT10M</strong>, <strong>Deep1M</strong>, and <strong>News</strong>, and compare to state-of-the-art baselines including <strong>FAISS</strong>, <strong>HNSWlib</strong>, <strong>LVQ</strong>, and <strong>Milvus</strong>.</p>
+<hr />
+<h2 id="sections">Sections</h2>
+<ul>
+<li>
+<p><a href="static_indexing.md">Static Indexing</a>:<br />
+  Evaluates precision, memory usage, and query latency on pre-built indexes using static datasets.</p>
+</li>
+<li>
+<p><a href="dynamic_indexing.md">Dynamic Indexing</a>:<br />
+  Measures update latency, scalability, and post-insertion accuracy for real-time index updates without reconstruction.</p>
+</li>
+<li>
+<p><a href="ablation_studies.md">Ablation Studies</a>:<br />
+  Evaluates the impact of quantization, graph reranking, and memory optimization strategies on system performance.</p>
+</li>
+</ul>
+<hr />
+<h2 id="benchmark-summary-across-all-tasks">📊 Benchmark Summary (Across All Tasks)</h2>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Dataset</th>
+<th>Precision@10</th>
+<th>Recall@10</th>
+<th>Latency (ms)</th>
+<th>Memory (GiB)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>FAISS-IVFPQ</td>
+<td>Glove1.2M</td>
+<td>0.78</td>
+<td>0.71</td>
+<td>12</td>
+<td>1.2</td>
+</tr>
+<tr>
+<td>HNSWlib</td>
+<td>Glove1.2M</td>
+<td>0.85</td>
+<td>0.79</td>
+<td>20</td>
+<td>2.6</td>
+</tr>
+<tr>
+<td>LVQ [VLDB'23]</td>
+<td>Deep1M</td>
+<td>0.88</td>
+<td>0.84</td>
+<td>15</td>
+<td>1.8</td>
+</tr>
+<tr>
+<td><strong>VectorSearch (Ours)</strong></td>
+<td>All</td>
+<td><strong>0.92</strong></td>
+<td><strong>0.87</strong></td>
+<td><strong>11</strong></td>
+<td><strong>1.0</strong></td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>Full tables and visual comparisons are included in each section linked above.</p>
+</blockquote>
 
 
 

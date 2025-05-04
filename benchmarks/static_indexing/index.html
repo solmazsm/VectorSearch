@@ -9,25 +9,25 @@
       
       
       
-        <link rel="prev" href="../benchmarks/dynamic_indexing/">
+        <link rel="prev" href="../Overview/">
       
       
-        <link rel="next" href="../faq/">
+        <link rel="next" href="../dynamic_indexing/">
       
       
-      <link rel="icon" href="../assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.12">
     
     
       
-        <title>Visualizations - VectorSearch (VS)</title>
+        <title>Static Indexing - VectorSearch (VS)</title>
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.2afb09e1.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.2afb09e1.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -46,7 +46,7 @@
       
     
     
-    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -70,7 +70,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#vectorsearch-vs-system-architecture" class="md-skip">
+        <a href="#benchmarks" class="md-skip">
           Skip to content
         </a>
       
@@ -86,7 +86,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href=".." title="VectorSearch (VS)" class="md-header__button md-logo" aria-label="VectorSearch (VS)" data-md-component="logo">
+    <a href="../.." title="VectorSearch (VS)" class="md-header__button md-logo" aria-label="VectorSearch (VS)" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -106,7 +106,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Visualizations
+              Static Indexing
             
           </span>
         </div>
@@ -184,7 +184,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="VectorSearch (VS)" class="md-nav__button md-logo" aria-label="VectorSearch (VS)" data-md-component="logo">
+    <a href="../.." title="VectorSearch (VS)" class="md-nav__button md-logo" aria-label="VectorSearch (VS)" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -202,7 +202,7 @@
   
   
     <li class="md-nav__item">
-      <a href=".." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         
   
   
@@ -224,7 +224,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../getting_started/" class="md-nav__link">
+      <a href="../../getting_started/" class="md-nav__link">
         
   
   
@@ -243,18 +243,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
           <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
@@ -270,7 +272,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             Benchmarks
@@ -284,7 +286,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../benchmarks/Overview/" class="md-nav__link">
+      <a href="../Overview/" class="md-nav__link">
         
   
   
@@ -304,10 +306,32 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../benchmarks/static_indexing/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Static Indexing
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -318,6 +342,44 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#sections" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sections
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#benchmark-summary-across-all-tasks" class="md-nav__link">
+    <span class="md-ellipsis">
+      📊 Benchmark Summary (Across All Tasks)
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -330,7 +392,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../benchmarks/dynamic_indexing/" class="md-nav__link">
+      <a href="../dynamic_indexing/" class="md-nav__link">
         
   
   
@@ -353,7 +415,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../benchmarks/ablation_studies.md" class="md-nav__link">
+      <a href="../ablation_studies.md" class="md-nav__link">
         
   
   
@@ -380,30 +442,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    Visualizations
-    
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../visualizations/" class="md-nav__link">
         
   
   
@@ -414,42 +456,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#vectorsearch-vs-system-architecture" class="md-nav__link">
-    <span class="md-ellipsis">
-      VectorSearch (VS) System Architecture
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#embedding-visualization" class="md-nav__link">
-    <span class="md-ellipsis">
-      Embedding Visualization
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -461,7 +467,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../faq/" class="md-nav__link">
+      <a href="../../faq/" class="md-nav__link">
         
   
   
@@ -493,6 +499,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -501,18 +509,18 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#vectorsearch-vs-system-architecture" class="md-nav__link">
+  <a href="#sections" class="md-nav__link">
     <span class="md-ellipsis">
-      VectorSearch (VS) System Architecture
+      Sections
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#embedding-visualization" class="md-nav__link">
+  <a href="#benchmark-summary-across-all-tasks" class="md-nav__link">
     <span class="md-ellipsis">
-      Embedding Visualization
+      📊 Benchmark Summary (Across All Tasks)
     </span>
   </a>
   
@@ -534,13 +542,76 @@
 
 
 
-  <h1>Visualizations</h1>
-
-<h2 id="vectorsearch-vs-system-architecture">VectorSearch (VS) System Architecture</h2>
-<p><img alt="VectorSearch System Architecture" src="../images/VS-system.jpg" /></p>
-<h2 id="embedding-visualization">Embedding Visualization</h2>
-<p><img alt="2D Embedding Visualization" src="../images/embedding_visualization.jpg" /></p>
-<p>2D visualization of embeddings by topic (Health, Technology, Science), demonstrating how semantic clusters are separated in reduced space.</p>
+<h1 id="benchmarks">Benchmarks</h1>
+<p>This section presents detailed evaluations of VectorSearch across multiple benchmark scenarios, highlighting performance within static and dynamic indexing setups, as well as ablation studies on system design components.</p>
+<p>We evaluate the system using standard datasets such as <strong>Glove1.2M</strong>, <strong>SIFT10M</strong>, <strong>Deep1M</strong>, and <strong>News</strong>, and compare to state-of-the-art baselines including <strong>FAISS</strong>, <strong>HNSWlib</strong>, <strong>LVQ</strong>, and <strong>Milvus</strong>.</p>
+<hr />
+<h2 id="sections">Sections</h2>
+<ul>
+<li>
+<p><a href="./">Static Indexing</a>:<br />
+  Evaluates precision, memory usage, and query latency on pre-built indexes using static datasets.</p>
+</li>
+<li>
+<p><a href="../dynamic_indexing/">Dynamic Indexing</a>:<br />
+  Measures update latency, scalability, and post-insertion accuracy for real-time index updates without reconstruction.</p>
+</li>
+<li>
+<p><a href="ablation_studies.md">Ablation Studies</a>:<br />
+  Evaluates the impact of quantization, graph reranking, and memory optimization strategies on system performance.</p>
+</li>
+</ul>
+<hr />
+<h2 id="benchmark-summary-across-all-tasks">📊 Benchmark Summary (Across All Tasks)</h2>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Dataset</th>
+<th>Precision@10</th>
+<th>Recall@10</th>
+<th>Latency (ms)</th>
+<th>Memory (GiB)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>FAISS-IVFPQ</td>
+<td>Glove1.2M</td>
+<td>0.78</td>
+<td>0.71</td>
+<td>12</td>
+<td>1.2</td>
+</tr>
+<tr>
+<td>HNSWlib</td>
+<td>Glove1.2M</td>
+<td>0.85</td>
+<td>0.79</td>
+<td>20</td>
+<td>2.6</td>
+</tr>
+<tr>
+<td>LVQ [VLDB'23]</td>
+<td>Deep1M</td>
+<td>0.88</td>
+<td>0.84</td>
+<td>15</td>
+<td>1.8</td>
+</tr>
+<tr>
+<td><strong>VectorSearch (Ours)</strong></td>
+<td>All</td>
+<td><strong>0.92</strong></td>
+<td><strong>0.87</strong></td>
+<td><strong>11</strong></td>
+<td><strong>1.0</strong></td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>Full tables and visual comparisons are included in each section linked above.</p>
+</blockquote>
 
 
 
@@ -570,7 +641,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../benchmarks/dynamic_indexing/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Dynamic Indexing">
+          <a href="../Overview/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Overview">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -580,20 +651,20 @@
                 Previous
               </span>
               <div class="md-ellipsis">
-                Dynamic Indexing
+                Overview
               </div>
             </div>
           </a>
         
         
           
-          <a href="../faq/" class="md-footer__link md-footer__link--next" aria-label="Next: FAQ">
+          <a href="../dynamic_indexing/" class="md-footer__link md-footer__link--next" aria-label="Next: Dynamic Indexing">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                FAQ
+                Dynamic Indexing
               </div>
             </div>
             <div class="md-footer__button md-icon">
@@ -636,10 +707,10 @@
     
     
       
-      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.footer"], "search": "../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.footer"], "search": "../../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../assets/javascripts/bundle.c8b220af.min.js"></script>
+      <script src="../../assets/javascripts/bundle.c8b220af.min.js"></script>
       
     
   </body>

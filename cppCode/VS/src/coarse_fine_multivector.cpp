@@ -1,3 +1,5 @@
+// Author: Solmaz Seyed Monir
+
 #include "coarse_fine_multivector.h"
 #include <iostream>
 #include <vector>

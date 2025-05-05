@@ -92,3 +92,17 @@ Retrieval experiments were performed using 10,000 queries, and all reported metr
 
 Scripts for local and cloud deployment are included for reproducibility.
 
+### Requirements
+
+- C++17 compiler (`g++`, `clang++`, MSVC)
+- `make` or `nmake` (Linux/macOS or Windows)
+
+
+### Compilation (Linux/macOS)
+
+```bash
+make
+```
+```bash
+./VectorSearch deep1m
+```

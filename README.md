@@ -4,6 +4,7 @@
 [![System Setup](https://img.shields.io/badge/System%20Setup-Ubuntu%20%7C%20C%2B%2B%20%2B%20Python-blue)](https://github.com/solmazsm/VectorSearch/blob/master/vectorsearch_system_setup/azure_setup.sh)
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
 [![C++](https://img.shields.io/badge/C++-supported-blue.svg)](https://en.cppreference.com/)
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=solmazsm.VectorSearchDocs)
 
 
 
@@ -106,3 +107,5 @@ make
 ```bash
 ./VectorSearch deep1m
 ```
+
+

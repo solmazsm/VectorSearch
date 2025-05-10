@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/logo-1.jpg" alt="VectorSearch Logo" width="180"/>
+  <img src="docs/images/logo-1.jpg" alt="VectorSearch Logo" width="180"/>
 </p>
 # VectorSearch: A Self-Optimizing Multi-Vector Indexing System for Scalable and Memory-Efficient Vector Retrieval
 

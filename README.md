@@ -1,5 +1,19 @@
-![VS Logo](docs/images/logo-1.jpg)
-# VectorSearch: A Self-Optimizing Multi-Vector Indexing System for Scalable and Memory-Efficient Vector Retrieval
+
+<table style="border-collapse: collapse; border: none;">
+  <tr>
+    <td style="border: none; padding: 0; vertical-align: middle;">
+      <img src="docs/images/logo-1.jpg" alt="VS Logo" width="60">
+    </td>
+    <td style="border: none; padding-left: 12px; vertical-align: middle;">
+      <h1 style="margin: 0; font-size: 1.8em;">
+        VectorSearch: A Self-Optimizing Multi-Vector Indexing System for Scalable and Memory-Efficient Vector Retrieval
+      </h1>
+    </td>
+  </tr>
+</table>
+
+
+
 
 [![Documentation](https://img.shields.io/badge/docs-available-brightgreen.svg)](https://solmazsm.github.io/VectorSearch/)
 [![System Setup](https://img.shields.io/badge/System%20Setup-Ubuntu%20%7C%20C%2B%2B%20%2B%20Python-blue)](https://github.com/solmazsm/VectorSearch/blob/master/vectorsearch_system_setup/azure_setup.sh)

@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="docs/images/logo-1.jpg" alt="VectorSearch Logo" width="180"/>
-</p>
+![VS Logo](docs/images/logo-1.jpg)
 # VectorSearch: A Self-Optimizing Multi-Vector Indexing System for Scalable and Memory-Efficient Vector Retrieval
 
 [![Documentation](https://img.shields.io/badge/docs-available-brightgreen.svg)](https://solmazsm.github.io/VectorSearch/)

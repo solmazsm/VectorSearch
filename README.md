@@ -24,7 +24,6 @@ The VectorSearch (VS) system includes comprehensive documentation for setup, usa
 - **API reference** for system modules and dataset loaders  
 - **Performance benchmarks** and comparison studies on real datasets
 
-Visit the full documentation at: [https://solmazsm.github.io/VectorSearch/](https://solmazsm.github.io/VectorSearch/)
 ## 📚 Dataset
 
 The VectorSearch dataset is a collection of news articles and image feature vectors indexed using semantic vector embeddings for efficient search and retrieval. It includes articles from diverse news sources and visual feature datasets, supporting large-scale text and image retrieval experiments.

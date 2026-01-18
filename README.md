@@ -13,7 +13,7 @@
 
 #### This folder contains all the necessary implementations required to replicate the studies.
 
-###  Documentation   
+###  Documentation: 2025
 
 https://solmazsm.github.io/VectorSearch/
 

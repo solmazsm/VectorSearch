@@ -13,7 +13,9 @@
 
 #### This folder contains all the necessary implementations required to replicate the studies.
 
-###  Documentation   https://solmazsm.github.io/VectorSearch/
+###  Documentation   
+
+https://solmazsm.github.io/VectorSearch/
 
 The VectorSearch (VS) system includes comprehensive documentation for setup, usage, and evaluation. It provides:
 
